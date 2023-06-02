@@ -66,7 +66,7 @@
 
 .app__footer-cards .app__footer-card:last-child {
 	background-color: #1b1b1b;
-	justify-content: center;
+	justify-content: left;
 }
 
 .app__footer-cards .app__footer-card:last-child:hover {
@@ -138,4 +138,13 @@
 		width: 100%;
 		margin: 1rem 0;
 	}
+}
+
+.button-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 1rem 0;
+	color: #f9f9f9 !important;
 }

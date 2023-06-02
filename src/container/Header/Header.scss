@@ -17,8 +17,8 @@
 
 .app__header {
 	flex: 1;
-	width: 100%;
-	height: 100%;
+	width: 70%;
+	height: 70%;
 	flex-direction: column;
 	color: white;
 
@@ -29,14 +29,20 @@
 
 	@media screen and (min-width: 2000px) {
 		padding-top: 8rem;
+		width: 100%;
+		height: 100%;
 	}
 
 	@media screen and (max-width: 1200px) {
 		flex-direction: column;
+		width: 100%;
+		height: 100%;
 	}
 
 	@media screen and (max-width: 450px) {
 		padding: 6rem 1rem 2rem;
+		width: 100%;
+		height: 100%;
 	}
 }
 
@@ -69,6 +75,12 @@
 	border-radius: 50%;
 }
 
+.header-content img:hover {
+	box-shadow: #ffffff 0px 0px 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
 .header_para {
 	margin-left: 20px;
 }

@@ -47,14 +47,8 @@ const Footer = () => {
 			<div className='app__footer-cards'>
 				<div className='app__footer-card '>
 					{/* <img src={images.email} alt='email' /> */}
-					<a href='papabear.metalxray@gmail.com' className='p-text'>
+					<a href='papabear.metalxray@gmail.com' className='button-form'>
 						mail: papabear.metalxray@gmail.com
-					</a>
-				</div>
-				<div className='app__footer-card'>
-					{/* <img src={images.mobile} alt='phone' /> */}
-					<a href='tel:+91 9113593092' className='p-text'>
-						phone number: +91 9113593092
 					</a>
 				</div>
 			</div>
@@ -89,7 +83,7 @@ const Footer = () => {
 							onChange={handleChangeInput}
 						/>
 					</div>
-					<button type='button' className='p-text' onClick={handleSubmit}>
+					<button type='button' className='button-form' onClick={handleSubmit}>
 						{!loading ? "click here to send." : "Sending..."}
 					</button>
 				</div>
