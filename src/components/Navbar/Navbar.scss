@@ -179,6 +179,9 @@
 						color: #a1a1a1;
 					}
 				}
+				a::after {
+					content: ".";
+				}
 			}
 		}
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
@@ -15,12 +15,18 @@ const Header = () => (
 			/>
 		</div>
 		<div className='header_para'>
-			I'm Aaryan Bhatia Ghosh, a final year computer science student at VIT,
-			Vellore. I am a full stack developer with a keen interest in web
-			development and machine learning. I am also a competitive programmer and
-			have a good grasp of data structures and algorithms. I am a quick learner
-			and a team player. I am always looking for opportunities to learn and
-			grow.
+			<p>
+				<hr></hr> <br></br>
+				I'm Aaryan Bhatia Ghosh, a final year computer science student at VIT,
+				Vellore. I am a full stack developer with a keen interest in web
+				development and machine learning.<br></br>
+				<br></br>I am also a competitive programmer and have a good grasp of
+				data structures and algorithms. I am a quick learner and a team player.
+				I am always looking for opportunities to learn and grow.
+				<br></br>
+				<br></br>
+				<hr></hr>
+			</p>
 		</div>
 
 		<div className='resume-download'>
